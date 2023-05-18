@@ -11,6 +11,13 @@ export const  styles = StyleSheet.create({
     },
     button: {
         marginVertical: 10,
-        width: 100
+        width: 100,
+        height: 50,
+        backgroundColor: 'red',
+        borderRadius: 20,
+        textAlign: 'center',
+        textAlignVertical: 'center',
+        color: 'white'
+        
     }
 });

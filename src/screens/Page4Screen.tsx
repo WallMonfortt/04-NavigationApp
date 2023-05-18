@@ -10,7 +10,9 @@ export const Page4Screen = ({navigation}:Props) => {
     <View
       style = { styles.globalMargin}
     >
-        <Text>Page4Screen</Text>
+        <Text
+          style = {styles.title}
+        >Page4Screen</Text>
 
         <Button
           title='regresar'
