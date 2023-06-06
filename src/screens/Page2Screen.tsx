@@ -24,7 +24,7 @@ export const Page2Screen = ({navigation}: Props ) => {
         >Page2Screen</Text>
       <Button
         title="Ir a página 3"
-        onPress={ () => navigation.navigate( 'Page 3 Screen' ) }
+        onPress={ () => navigation.navigate( 'Page3Screen' ) }
       />
     </View>
 

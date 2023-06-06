@@ -15,19 +15,43 @@ export const Page1Screen = ( {navigation}:Props ) => {
         <Text style={styles.title}>Page1Screen</Text>
         <Button 
           title="Ir a página 2"
-          onPress={ () => navigation.navigate('Page 2 Screen') }
+          onPress={ () => navigation.navigate('Page2Screen') }
         />
         <Text> Navigate to persona with arguments</Text>
-        <TouchableOpacity 
-          onPress={ () => navigation.navigate('PersonaScreen',{
-            id: 1,
-            name: 'Peter'
-          })}
-        >
-          <Text
-           style={styles.button}
-          >Peter</Text>
-        </TouchableOpacity>
+
+        <View style={{flexDirection: 'row'}}>
+          <TouchableOpacity 
+            onPress={ () => navigation.navigate('PersonaScreen',{
+              id: 1,
+              name: 'Peter'
+            })}
+          >
+            <Text
+            style={
+              {
+                ...styles.button,
+                backgroundColor: '#5856D6'
+              }
+            }
+            >Peter</Text>
+          </TouchableOpacity>
+          <TouchableOpacity 
+            onPress={ () => navigation.navigate('PersonaScreen',{
+              id: 2,
+              name: 'Maria'
+            })}
+          >
+            <Text
+            style={
+              {
+                ...styles.button,
+                backgroundColor: '#FF9427'
+              }
+            }
+            >Maria</Text>
+          </TouchableOpacity>
+        </View>
+        
     </View>
 
   )

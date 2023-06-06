@@ -14,7 +14,9 @@ export const  styles = StyleSheet.create({
         width: 100,
         height: 50,
         backgroundColor: 'red',
-        borderRadius: 20,
+        borderRadius: 30,
+        padding: 10,
+        marginRight: 10,
         textAlign: 'center',
         textAlignVertical: 'center',
         color: 'white'

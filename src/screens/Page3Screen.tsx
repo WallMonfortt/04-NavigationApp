@@ -17,7 +17,7 @@ export const Page3Screen = ({navigation}:Props) => {
 
         <Button
           title="ir a página 4"
-          onPress={ () => navigation.navigate('Page 4 Screen') }
+          onPress={ () => navigation.navigate('Page4Screen') }
         />
     </View>
 
